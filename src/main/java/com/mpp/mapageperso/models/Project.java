@@ -11,7 +11,6 @@ public class Project {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
     @Column(name = "created_at")
     private LocalDateTime createdAt;
